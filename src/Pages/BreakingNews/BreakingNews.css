@@ -1,0 +1,8 @@
+.BreakingNews-Container{
+    border: red 1px solid;
+    width:80%;
+    float: right;
+    height: 100%;
+    
+    display: flex
+}

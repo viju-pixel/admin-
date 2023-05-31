@@ -1,0 +1,38 @@
+.Data .new {
+    background-color: black !important;
+    color:grey;
+    font-weight: 500;
+}
+
+.Data .new:hover{
+    color:white !important;
+}
+.Data img{
+    /* display: inline; */
+    height:2rem;
+    margin-right: 2%;
+}
+
+.Data p{
+    display: inline;
+}
+.NavItems{
+    text-decoration: none;
+    color: #FFF;
+}
+.NavItems:hover{
+    color: yellow;
+}
+/* @media only screen and (max-width: 1085px){
+    .Data p{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .Data p{
+        display: none;
+    }
+
+  
+} */

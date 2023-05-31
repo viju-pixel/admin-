@@ -1,0 +1,285 @@
+.headlines {
+    width: 100%;
+    position: relative;
+    height: 20%;
+}
+
+.headlines-right {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+
+.newsButton {
+    margin-left: 5%;
+}
+
+.headlines-right img {
+    width: 144px;
+    height: 108px;
+    border-radius: 4%;
+}
+
+.headlines-left {
+    width: 100%;
+    position: relative;
+    max-width: 434px;
+    height: 120px;
+    float: left;
+}
+
+.headlines-left h3 {
+    flex-direction: column;
+    width: 434px;
+    height: auto;
+    overflow: hidden;
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*---------------------------------------*/
+.refl {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.NewFooter2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 120%;
+    height: 2rem;
+    color: #808080;
+}
+
+.SocialIcon2 {
+    float: right;
+    height: 19px;
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cated {
+    height: 24px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.SocialIconed1 {
+    height: 24px;
+    width: 24px;
+}
+
+.SocialIconed2 {
+    padding-left: 20px;
+    height: 24px;
+    width: 24px;
+}
+
+/*--------------------------------------*/
+.headlines-left p {
+    font-size: 15px;
+    font-family: inter;
+    width: 98%;
+    height: 119px;
+}
+
+.footer h4 {
+    margin: 0px 0px 0px 3.125rem;
+    bottom: 0;
+    left: 0;
+}
+
+.icon {
+    margin: 0 6.25rem 0 0;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.head {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.head h4 {
+    float: left;
+    margin: 5px;
+    font-size: 28px;
+}
+
+.head p {
+    float: right;
+    margin: 18px 5px 5px 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.BlockHead {
+    width: 100%;
+    height: 195px;
+    background-color: #ffff;
+    padding: 20px 20px 8px;
+    border: 1px solid #eaeaea;
+}
+
+.footer {
+    width: 53rem;
+    margin-top: 1rem;
+}
+
+.globelicon {
+    color: #3b5998;
+    font-size: 150%;
+}
+
+.CatName {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.SocialGlobelIcns {
+    font-size: 20%;
+    color: #3b5998;
+    float: right;
+    padding-right: 58px;
+    padding-top: 5px;
+}
+
+@media all and (min-width: 360px) and (max-width: 532px) {
+    .BlockHead {
+        width: 100%;
+        padding: 8px 8px 8px;
+        height: auto;
+    }
+
+    .headlines-right img {
+        width: 100%;
+    }
+
+    .headlines-left h3 {
+        width: 90%;
+        height: 100%;
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .refl {
+        display: inline-flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media all and (min-width: 360px) and (max-width: 532px) {
+    .NewFooter2 {
+        margin-top: auto;
+    }
+
+    .SocialIconed2 {
+        padding-left: 10px;
+    }
+
+    .cated {
+        height: 24px;
+        width: 150px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .SocialIcon2 {
+        height: 19px;
+        width: 74px;
+    }
+
+    .SocialIconed1 {
+        height: 14px;
+        width: 24px;
+    }
+
+    .SocialIconed2 {
+        padding-left: 4px;
+        height: 14px;
+        width: 24px;
+    }
+}
+
+
+@media all and (min-width: 1500px) and (max-width: 1800px) {
+    .SocialIcon2 {
+        width: auto;
+    }
+}
+
+@media all and (min-width: 1026px) and (max-width: 1214px) {
+    .headlines-left h3 {
+        width: auto;
+        min-width: 350px;
+    }
+}
+
+@media all and (min-width: 1026px) and (max-width: 1269px) {
+    .headlines-left h3 {
+        width: auto;
+        min-width: 350px;
+    }
+
+    .SocialIcon2 {
+        width: auto;
+        min-width: 89px;
+    }
+
+    .headlines-right img {
+        min-width: 134px;
+    }
+}
+
+@media all and (min-width: 997px) and (max-width: 1025px) {
+    .SocialIcon2 {
+        width: auto;
+        min-width: 327px;
+    }
+}
+
+@media all and (min-width: 977px) and (max-width: 997px) {
+    .SocialIcon2 {
+        width: auto;
+        min-width: 297px;
+    }
+}
+
+@media all and (min-width: 907px) and (max-width: 955px) {
+    .SocialIcon2 {
+        width: auto;
+        min-width: 297px;
+    }
+}
+
+@media all and (min-width: 856px) and (max-width: 906px) {
+    .SocialIcon2 {
+        width: auto;
+        min-width: 208px;
+    }
+}
+
+
+@media all and (min-width: 770px) and (max-width: 809px) {
+    .SocialIcon2 {
+        width: auto;
+        min-width: 301px;
+    }
+
+}
+
+@media all and (min-width: 725px) and (max-width: 769px) {
+    .SocialIcon2 {
+        width: auto;
+        min-width: 250px;
+    }
+}
